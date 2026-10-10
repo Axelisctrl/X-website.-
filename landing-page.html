@@ -6,210 +6,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>X Creator Store</title>
+<title>X Commerce</title>
 
-<style>
-
-body {
-    background: #000;
-    color: white;
-    font-family: Arial, sans-serif;
-    margin: 0;
-}
-
-
-.container {
-
-    max-width: 900px;
-    margin: auto;
-    padding: 30px;
-
-}
-
-
-
-/* Header */
-
-.header {
-
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    border-bottom:1px solid #333;
-    padding-bottom:20px;
-
-}
-
-
-.logo {
-
-    font-size:40px;
-    font-weight:bold;
-
-}
-
-
-
-button {
-
-    background:#1d9bf0;
-    color:white;
-    border:none;
-    padding:12px 25px;
-    border-radius:30px;
-    cursor:pointer;
-    font-size:16px;
-
-}
-
-
-
-
-/* Creator */
-
-.profile {
-
-    background:#16181c;
-    padding:30px;
-    border-radius:25px;
-    margin-top:30px;
-    display:flex;
-    gap:25px;
-    align-items:center;
-
-}
-
-
-
-.profile img {
-
-    width:120px;
-    height:120px;
-    border-radius:50%;
-
-}
-
-
-
-/* Product */
-
-.product {
-
-    background:#16181c;
-    margin-top:30px;
-    padding:30px;
-    border-radius:25px;
-
-}
-
-
-
-.product img {
-
-    width:100%;
-    border-radius:20px;
-
-}
-
-
-
-.price {
-
-    font-size:30px;
-    font-weight:bold;
-
-}
-
-
-
-.buy {
-
-    background:#00ba7c;
-    width:100%;
-    margin-top:20px;
-    font-size:20px;
-
-}
-
-
-
-
-
-/* Features */
-
-.features {
-
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:15px;
-    margin-top:30px;
-
-}
-
-
-
-.card {
-
-    background:#16181c;
-    padding:20px;
-    border-radius:20px;
-
-}
-
-
-
-/* Reviews */
-
-
-.review {
-
-    background:#16181c;
-    padding:20px;
-    border-radius:20px;
-    margin-top:15px;
-
-}
-
-
-
-
-/* AI */
-
-
-.ai {
-
-    background:#16181c;
-    padding:30px;
-    border-radius:25px;
-    margin-top:30px;
-
-}
-
-
-
-input {
-
-    width:70%;
-    padding:15px;
-    border-radius:20px;
-    border:none;
-
-}
-
-
-
-footer {
-
-    text-align:center;
-    margin-top:50px;
-    color:#777;
-
-}
-
-
-
-</style>
-
+<link rel="stylesheet" href="landing-style.css">
 
 </head>
 
@@ -217,15 +16,82 @@ footer {
 <body>
 
 
-<div class="container">
+<nav>
 
+<div class="logo">𝕏</div>
 
-
-<header class="header">
-
-<div class="logo">
-𝕏
+<div>
+<a>Products</a>
+<a>Creators</a>
+<a>Businesses</a>
+<a>Pricing</a>
 </div>
+
+<button>
+Get Started
+</button>
+
+</nav>
+
+
+
+
+<section class="hero">
+
+
+<div class="hero-text">
+
+<h1>
+Turn every post into a business.
+</h1>
+
+
+<p>
+X Commerce allows creators and businesses
+to create professional landing pages,
+sell products, and connect with customers
+without leaving X.
+</p>
+
+
+<button class="primary">
+
+Create Your Store
+
+</button>
+
+
+<button class="secondary">
+
+Watch Demo
+
+</button>
+
+
+</div>
+
+
+
+
+
+<div class="mockup">
+
+
+<div class="browser">
+
+
+<div class="top">
+
+● ● ●
+
+</div>
+
+
+
+<div class="store-preview">
+
+
+<img src="https://via.placeholder.com/90">
 
 
 <h2>
@@ -233,41 +99,66 @@ Creator Store
 </h2>
 
 
+<p>
+AI Product Platform
+</p>
+
+
+<h1>
+$49
+</h1>
+
+
 <button>
-Follow
+Buy Now
 </button>
 
 
-</header>
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+</section>
 
 
 
 
 
-<section class="profile">
+
+<section class="trust">
 
 
-<img src="https://via.placeholder.com/120">
+<h2>
+Trusted by creators and businesses
+</h2>
 
 
 <div>
 
-<h1>
-Mohamad AI Labs
-</h1>
-
-
-<p>
-@creator
-</p>
-
-
-<p>
-Building the future with AI, innovation, and technology.
-</p>
-
+10M+ Creators
 
 </div>
+
+
+<div>
+
+500K+ Businesses
+
+</div>
+
+
+<div>
+
+Global Community
+
+</div>
+
 
 
 </section>
@@ -277,44 +168,20 @@ Building the future with AI, innovation, and technology.
 
 
 
-<section class="product">
-
-
-<h2>
-Featured Product
-</h2>
-
-
-<img src="https://via.placeholder.com/800x400">
+<section class="problem">
 
 
 <h1>
-AI Creator Platform
+The Problem
 </h1>
 
 
 <p>
 
-A powerful platform that helps creators build,
-learn, and grow using artificial intelligence.
+Creators build audiences on X,
+but customers leave X to complete purchases.
 
 </p>
-
-
-
-<div class="price">
-
-$49/month
-
-</div>
-
-
-
-<button class="buy">
-
-Buy Now
-
-</button>
 
 
 </section>
@@ -323,99 +190,61 @@ Buy Now
 
 
 
+<section class="solution">
 
 
-<section class="features">
+<h1>
+The Solution
+</h1>
 
 
-<div class="card">
-
-<h3>
-🚀 Fast
-</h3>
-
-<p>
-Instant access after purchase.
-</p>
-
-</div>
+<div class="features">
 
 
-
-<div class="card">
-
-<h3>
-🤖 AI Powered
-</h3>
-
-<p>
-Smart tools for creators.
-</p>
-
-</div>
-
-
-
-
-<div class="card">
-
-<h3>
-🔒 Secure
-</h3>
-
-<p>
-Safe payments and protection.
-</p>
-
-</div>
-
-
-
-</section>
-
-
-
-
-
-
-<section>
-
+<div>
 
 <h2>
-Community Reviews
+AI Landing Pages
 </h2>
 
-
-<div class="review">
-
-⭐⭐⭐⭐⭐
-
-<br>
-
-"This changed how I create online."
-
-<br>
-
-❤️ 2,500 Likes
+<p>
+Automatically create professional pages from posts.
+</p>
 
 </div>
 
 
 
-<div class="review">
+<div>
 
-⭐⭐⭐⭐⭐
+<h2>
+Instant Checkout
+</h2>
 
-<br>
-
-"One of the best creator tools."
-
-<br>
-
-❤️ 900 Likes
+<p>
+Buy products directly inside X.
+</p>
 
 </div>
 
+
+
+
+<div>
+
+<h2>
+Creator Analytics
+</h2>
+
+<p>
+Track visitors, sales, and revenue.
+</p>
+
+</div>
+
+
+
+</div>
 
 
 </section>
@@ -426,42 +255,87 @@ Community Reviews
 
 
 
+<section class="how">
 
-<section class="ai">
 
+<h1>
+How It Works
+</h1>
+
+
+<div class="steps">
+
+
+<div>
 
 <h2>
-AI Shopping Assistant
-</h2>
+1</h2>
+
+Create Store
+
+</div>
 
 
-<input placeholder="Ask about this product">
+
+<div>
+
+<h2>
+2</h2>
+
+Share Products
+
+</div>
+
+
+
+<div>
+
+<h2>
+3</h2>
+
+Earn Revenue
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<section class="final">
+
+
+<h1>
+
+The future of commerce is social.
+
+</h1>
+
+
+<p>
+
+Connect conversations, communities,
+and commerce in one ecosystem.
+
+</p>
 
 
 <button>
 
-Ask AI
+Launch X Commerce
 
 </button>
 
 
 </section>
 
-
-
-
-
-
-<footer>
-
-Powered by X Commerce Concept
-
-</footer>
-
-
-
-
-</div>
 
 
 
