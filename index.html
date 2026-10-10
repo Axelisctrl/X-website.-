@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X Commerce Prototype</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="layout">
+
+    <!-- Left Sidebar -->
+    <aside class="sidebar">
+
+        <div class="logo">𝕏</div>
+
+        <nav>
+            <button>🏠 Home</button>
+            <button>🔍 Explore</button>
+            <button>🔔 Notifications</button>
+            <button>✉ Messages</button>
+            <button>🔖 Bookmarks</button>
+            <button>👥 Communities</button>
+            <button>👤 Profile</button>
+        </nav>
+
+        <button class="post-btn">
+            Post
+        </button>
+
+    </aside>
+
+
+    <!-- Main Timeline -->
+    <main class="timeline">
+
+        <header>
+            <h2>Home</h2>
+        </header>
+
+
+        <!-- Create Post -->
+        <div class="create-post">
+
+            <img src="https://via.placeholder.com/50">
+
+            <input placeholder="What is happening?">
+
+            <button>
+                Post
+            </button>
+
+        </div>
+
+
+
+        <!-- Example Post -->
+        <article class="post">
+
+            <div class="user">
+                <img src="https://via.placeholder.com/50">
+
+                <div>
+                    <b>Tech Creator</b>
+                    <span>@creator</span>
+                </div>
+            </div>
+
+
+            <p>
+                I just launched my new AI product. 
+                Check it out!
+            </p>
+
+
+            <button>💬 Reply</button>
+            <button>🔁 Repost</button>
+            <button>❤️ Like</button>
+
+        </article>
+
+
+
+        <!-- New Feature -->
+        <article class="post">
+
+            <h3>
+                New X Commerce Feature Concept
+            </h3>
+
+            <p>
+                Turn your profile into a professional landing page
+                where followers can discover and buy products.
+            </p>
+
+
+            <button 
+            class="landing-btn"
+            onclick="openLandingPage()">
+
+                🚀 Create Landing Page
+
+            </button>
+
+
+        </article>
+
+
+
+        <!-- Landing Page Preview -->
+
+        <section id="landingPage" class="landing-page hidden">
+
+
+            <h1>
+                Creator Store
+            </h1>
+
+
+            <img src="https://via.placeholder.com/150">
+
+
+            <h2>
+                AI Product
+            </h2>
+
+
+            <p>
+                A revolutionary product created by this creator.
+            </p>
+
+
+            <h2>
+                $49.99
+            </h2>
+
+
+            <button class="buy-btn">
+                Buy Now
+            </button>
+
+
+            <h3>
+                Customer Reviews
+            </h3>
+
+
+            <p>
+                ⭐⭐⭐⭐⭐
+                Amazing product!
+            </p>
+
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- Right Sidebar -->
+
+    <aside class="rightbar">
+
+
+        <input 
+        placeholder="Search X">
+
+
+        <div class="box">
+
+            <h3>
+                Trending
+            </h3>
+
+            <p>#ArtificialIntelligence</p>
+            <p>#Technology</p>
+            <p>#Innovation</p>
+
+        </div>
+
+
+
+        <div class="box">
+
+            <h3>
+                Who to follow
+            </h3>
+
+            <p>
+                Elon Musk
+            </p>
+
+            <p>
+                AI Researchers
+            </p>
+
+        </div>
+
+
+    </aside>
+
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
